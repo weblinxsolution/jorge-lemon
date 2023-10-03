@@ -1,0 +1,1074 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+.fa-earth-americas {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+#navbarSupportedContent {
+    align-items: end;
+    margin-bottom: 6px !important;
+}
+
+#navbarSupportedContent ul li {
+    font-weight: bold;
+    margin: 0px 30px;
+}
+
+#navbarSupportedContent ul li a {
+    padding: 0px !important;
+    color: #39B449;
+    transition: .4s all;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: #DE9C38;
+}
+
+.navbar i {
+    color: #868686 !important;
+}
+
+.flag-icon img {
+    width: 30px;
+}
+
+.text-sm-center {
+    text-align: start !important;
+}
+
+.flag-icon div {
+    cursor: pointer;
+    font-size: 15px;
+    color: #39B449;
+    font-weight: bold;
+}
+
+.flag-icon-mobile img {
+    width: 20px;
+}
+.flag-icon-mobile {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+}
+
+.flag-icon-mobile div {
+    cursor: pointer;
+    font-size: 10px;
+    color: #39B449;
+    font-weight: bold;
+}
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.banner-section-1 {
+    background-image: url('../images/NOSOTROS.jpg');
+    background-repeat: no-repeat;
+    background-position: center 45%;
+    background-size: cover;
+}
+
+.banner-content-1 {
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-tow-img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+
+.section-tow-img img {
+    border-radius: 50%;
+    /* width: 400px; */
+    height: 400px;
+}
+
+.section-tow {
+    background-color: #BF1E2D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-three {
+    background-image: url('../images/MISION.jpg');
+    background-repeat: no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+}
+
+.section-three-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.section-three-sub-content {
+    background-color: #39b44938;
+}
+
+.section-four {
+    background-image: url('../images/VISION.jpg');
+    background-repeat: no-repeat;
+    background-position: center 90%;
+    background-size: cover;
+}
+
+.section-four-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.section-four-sub-content {
+    background-color: #39b44938;
+}
+
+.section-values {
+    background-color: #D91B5C;
+}
+
+.value-box {
+    width: 320px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.value-box h1 {
+    font-weight: bold;
+}
+
+.value-box p {
+    font-size: 13px;
+}
+
+.value-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.value-img .img1 {
+    transform: scale(2.2);
+}
+
+.value-content {
+    width: 250px;
+    height: 170px;
+    background-color: #39B449;
+    border-radius: 23px;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+}
+
+.fs-small {
+    font-size: small;
+}
+
+.footer-li {
+    padding: 0px;
+}
+
+.footer-li li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.footer-li li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-li li img {
+    width: 35px;
+}
+
+.footer-imgs img {
+    width: 100px;
+}
+
+.bg-footer-grey {
+    background-color: #868686;
+}
+
+.footer-ntrl {
+    width: 200px !important;
+}
+
+.text-small {
+    font-size: small;
+}
+
+.footer-icon-below-logo {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.footer-icon-below-logo img {
+    width: 30px;
+}
+
+.contact-heading-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.contact-heading-box::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    z-index: -1;
+    height: 5px;
+    background-color: #39B449;
+}
+
+.contact-heading {
+    width: fit-content;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.contact-heading h1 {
+    font-weight: bold;
+    color: #39B449;
+}
+
+.contact-section {
+    position: relative;
+    /* z-index: -1; */
+    background-color: #F1F1F1;
+}
+
+.text-grey {
+    color: #868686;
+}
+
+.contacto-bg-green {
+    background-color: #39B449;
+    color: #fff;
+}
+
+.contact-form input {
+    width: 100%;
+}
+
+.contact-form input:focus {
+    outline: none;
+}
+
+.contact-form textarea:focus {
+    outline: none;
+}
+
+.persian-lime-banner {
+    background-image: url('../images/ORGANICO.2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.persian-lime-content {
+    overflow: hidden;
+    height: 500px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: start;
+    padding-top: 3rem;
+}
+
+.persian-lime-heading-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    width: 100%;
+}
+
+.persian-lime-heading-box::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 62%;
+    width: 100%;
+    z-index: -1;
+    height: 5px;
+    background-color: #fff;
+}
+
+.persian-lime-heading-box::after {
+    content: "";
+    position: absolute;
+    top: 23px;
+    right: 62%;
+    width: 100%;
+    z-index: -1;
+    height: 5px;
+    background-color: #fff;
+}
+
+.persian-lime-heading {
+    width: fit-content;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.persian-lime-heading h1 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.persion-lemon-banner {
+    width: 300px;
+}
+
+.persion-parnter-logos {
+    width: 150px;
+}
+
+.conventional-lemon img {
+    width: 300px;
+}
+
+.conventional-lemon-section {
+    background-color: #FCB040;
+}
+
+.conventional-lemon-2-start {
+    background-image: url('../images/FONDO-CONVENCIONAL.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conventional-lemon-2-content {
+    overflow: hidden;
+    height: 500px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: start;
+    padding-top: 3rem;
+}
+
+.conventional-lemon-2-content img {
+    width: 400px;
+}
+
+.cultivation-section {
+    background-color: #DE9C38;
+}
+
+.lemeon-2-img img {
+    width: 300px;
+}
+
+.lemon-logistics-icons img {
+    width: 200px;
+}
+
+.logistics-section {
+    background-color: #FCB040;
+}
+
+.organic-lemon-start {
+    background-image: url('../images/FONDO-ORGANICO.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.organic-lemon-content {
+    overflow: hidden;
+    height: 500px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: start;
+    padding-top: 3rem;
+}
+
+.organic-lemon-content img {
+    width: 400px;
+}
+
+.organic-section {
+    background-color: #8B5BF9;
+}
+
+.organic-logistics-section {
+    background-color: #94C11C;
+}
+
+.lemon-invoice {
+    margin: 10px;
+    border: 3px solid #fff;
+    border-radius: 35px;
+    overflow: hidden;
+    font-size: 21px;
+    height: fit-content;
+}
+
+.lemon-invoice div {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+
+.lemon-invoice-img {
+    overflow: hidden;
+    width: 200px;
+}
+
+.lemon-invoice-img img {
+    width: 200px;
+    border-radius: 40px;
+}
+
+.destination-section {
+    background-color: #8B5BF9;
+}
+
+.destination-box {
+    position: relative;
+}
+
+.img-destination-icon-1 {
+    width: 11%;
+}
+
+.img-destination-icon-2 {
+    width: 10%;
+}
+
+.img-destination-icon-3 {
+    width: 10%;
+}
+
+.img-destination-icon-4 {
+    width: 10%;
+}
+
+.img-destination-icon-5 {
+    width: 10%;
+}
+
+.img-dest img {
+    width: 100%;
+}
+
+.img-destination-icon-1 {
+    position: absolute;
+    top: 13%;
+    left: 46%;
+}
+
+
+
+.img-destination-icon-2 {
+    position: absolute;
+    top: 3%;
+    left: 7%;
+}
+
+.img-destination-icon-3 {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+}
+
+.img-destination-icon-4 {
+    position: absolute;
+    top: 27%;
+    left: 6%;
+}
+
+.img-destination-icon-5 {
+    position: absolute;
+    top: 26%;
+    right: 0%;
+}
+
+/* .img-destination-icon-5 img {
+    margin-top: -22px !important;
+} */
+
+.img-dest {
+    text-align: center;
+}
+
+.slider-box-img img {
+    width: 200px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    z-index: 1000;
+}
+.slider-box-img1{
+    background-image: url('../images/slider-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-box-img2{
+    background-image: url('../images/slider-3 (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-box-img3{
+    background-image: url('../images/slider-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-section {
+    background-color: #8B5BF9;
+}
+
+.slider-title h1 {
+    font-size: 11.1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slider-box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-content {
+    /* background-image: url('../images/big-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translateX(-4%); */
+    position: relative;
+}
+
+.slider-content-bg {
+    background-image: url('../images/big-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#carouselExampleControls2 {
+    width: 300px !important;
+}
+
+#carouselExampleControls2 .carousel-inner {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 300px !important;
+    height: 300px;
+}
+
+#carouselExampleControls2 .carousel-inner img {
+    width: 300px;
+    height: 300px;
+}
+
+.arrow-left {
+    left: 10%;
+}
+
+#carouselExampleControls2 .carousel-control-next {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+#carouselExampleControls2 .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    left: -15%;
+}
+
+.qty-txt {
+    width: 300px;
+}
+
+.home-logistics-sections {
+    background-color: #39B449;
+}
+
+.truck-img {
+    border-radius: 25px;
+}
+
+.img-garden {
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-garden img {
+    border-radius: 18px;
+}
+
+.vision-title {
+    text-align: end !important;
+}
+
+.value-content-spanish {
+    height: 200px !important;
+}
+.offcanvas-ul{
+    padding: 0px;
+    list-style-type: none;
+}
+.offcanvas-ul li a{
+    color: #000;
+    transition: .4s all;
+}
+.offcanvas-ul li{
+    border-bottom: 1px solid #000;
+}
+.offcanvas-ul li a:hover{
+    color: #FCB040;
+}
+
+@media only screen and (max-width: 1400px) {
+    .persian-lime-heading-box::before {
+        left: 68%;
+    }
+
+    .persian-lime-heading-box::after {
+        right: 68%;
+    }
+
+    .mp-text {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .slider-content-bg {
+        height: 250px !important;
+    }
+    .slider-content-bg .slider-box-img img {
+        width: 80px !important;
+    }
+
+    .organic-lemon-content {
+        padding-top: 1rem !important;
+    }
+
+    .section-tow {
+        padding-top: 20px !important;
+        padding-bottom: 17px !IMPORTANT;
+    }
+
+    .section-three {
+        background-position: center !important;
+    }
+
+    .project-img {
+        width: 90px;
+    }
+
+    .slider-title h1 {
+        font-size: 45px;
+    }
+
+    .slider-box-img img {
+        width: 100px;
+    }
+
+    .slider-content {
+        width: 100%;
+        height: 400px;
+    }
+
+    #carouselExampleControls2 {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    #carouselExampleControls2 .carousel-inner img {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    #carouselExampleControls2 .carousel-inner {
+        overflow: hidden;
+        border-radius: 50%;
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .qty-txt {
+        width: 200px !important;
+    }
+
+    .fs-sm-25 {
+        font-size: 25px !important;
+    }
+
+    .logistics-logo img {
+        width: 80px;
+    }
+
+    .fa-earth-americas {
+        display: block;
+    }
+
+    .mp-text {
+        font-size: 10px !important;
+    }
+
+    .img-destination-icon-1,
+    .img-destination-icon-2,
+    .img-destination-icon-3,
+    .img-destination-icon-4,
+    .img-destination-icon-5 {
+        width: 12%;
+    }
+
+    .img-destination-icon-1 {
+        position: absolute;
+        top: 11%;
+        left: 46%;
+    }
+
+    .img-destination-icon-5 img {
+        margin-top: -10px !important;
+    }
+
+    .img-destination-icon-3 {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+    }
+
+    .img-destination-icon-2 {
+        position: absolute;
+        top: 1%;
+        left: 4%;
+    }
+
+    .mini-slider-row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .value-content-spanish {
+        height: 60px !important;
+    }
+
+    .banner-section-1 {
+        background-image: url(../images/NOSOTROS.jpg);
+        background-repeat: no-repeat;
+        background-position: 37% 42%;
+        background-size: 280%;
+    }
+
+    .lemeon-2-img-eng {
+        top: 0 !important;
+    }
+
+    .section-tow-img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .fs-sm-15 {
+        font-size: 15px !important;
+    }
+
+    .section-three-sub-content {
+        text-align: center;
+    }
+
+    .text-sm-center {
+        text-align: center !important;
+    }
+
+    .value-box {
+        width: 100px;
+        margin: 3px;
+    }
+
+    .value-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .value-box p {
+        font-size: 3px;
+    }
+
+    .value-content {
+        width: 90px;
+        height: 70px;
+    }
+
+    .value-box h1 {
+        font-weight: bold;
+        font-size: 6px !important;
+    }
+
+    .value-content {
+        top: -15px;
+        border-radius: 9px;
+    }
+
+    .footer-li li {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 7px;
+    }
+
+    .footer-li li img {
+        width: 25px;
+    }
+
+    .footer-row {
+        flex-wrap: nowrap !important;
+    }
+
+    .footer-imgs {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .footer-icon-below-logo {
+        position: absolute;
+        top: 36%;
+        right: 0;
+    }
+
+    .footer-icon-below-logo img {
+        width: 22px !important;
+    }
+
+    .footer-ntrl {
+        width: 100px !important;
+    }
+
+    .footer-imgs img {
+        width: 60px;
+    }
+
+    .text-sm-7 {
+        font-size: 6px !important;
+    }
+
+    .section-four-content {
+        height: 350px;
+    }
+
+    .section-three-content {
+        height: 350px;
+    }
+
+    .banner-content-1 {
+        height: 350px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .section-three-sub-content {
+        background-color: #39b44938;
+        border-radius: 40px;
+        padding: 15px 0px;
+    }
+
+    .section-four-sub-content {
+        background-color: #39b44938;
+        border-radius: 40px;
+        padding: 15px 0px;
+    }
+
+    .flag-icon {
+        margin: 0px 30px;
+        display: flex;
+    }
+
+    .flag-icon div {
+        margin-right: 10px;
+    }
+
+    #navbarSupportedContent ul li {
+        margin: 10px 30px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .text-sm-10 {
+        font-size: 10px !important;
+    }
+
+    .text-sm-dark {
+        color: #000;
+    }
+
+    .contact-form input {
+        width: 85%;
+    }
+
+    .persian-lime-heading-box::before {
+        top: 15px;
+        left: 82%;
+    }
+
+    .persian-lime-heading-box::after {
+        top: 15px;
+        right: 82%;
+    }
+
+    .conventional-lemon h1 {
+        margin-top: -25px;
+    }
+
+    .fs-sm-19 {
+        font-size: 19px !important;
+    }
+
+    .persian-lime-content {
+        overflow: hidden;
+        height: 450px;
+    }
+
+    .persion-parnter-logos {
+        width: 100px;
+    }
+
+    .persion-parnter-logos img {
+        width: 90px;
+    }
+
+    .fs-sm-10 {
+        font-size: 10px !important;
+    }
+
+    .lemeon-2-img img {
+        width: 150px;
+    }
+
+    .fs-sm-13 {
+        font-size: 13px !important;
+    }
+
+    .lemeon-2-img {
+        position: absolute;
+        top: -0px;
+    }
+
+    .lemon-logistics-icons img {
+        width: 80px;
+    }
+
+    .lemon-logistics-icons img {
+        width: 80px;
+    }
+
+    .organic-section {
+        background-color: #39B449;
+    }
+
+    .lemon-invoice {
+        border: 1px solid #fff;
+        font-size: 10px;
+        border-radius: 15px;
+    }
+
+    .lemon-invoice div {
+        border-bottom: 1px solid #fff;
+    }
+
+    .lemeon-3-img {
+        width: 200px;
+    }
+
+    .fs-sm-20 {
+        font-size: 20px !important;
+    }
+
+    .organic-lemon-content img {
+        width: 200px;
+    }
+
+    .organic-lemon-content {
+        height: 400px;
+    }
+
+    .contact-heading-box::before {
+        top: 13px;
+    }
+
+    .slider-title-spanish h1 {
+        font-size: 40px;
+    }
+
+    .bulb-logo {
+        flex-direction: row-reverse;
+        /* text-align: end; */
+        align-items: end !important;
+        margin-bottom: 10px;
+    }
+
+    .pr-logo-rv {
+        flex-direction: row-reverse;
+    }
+}
